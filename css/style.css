@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap');
+body{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 14px;
+	color:#000000;
+}
+header{
+    background-color: #F3F3F3;
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+	text-decoration:overline;
+	color: #AAAAAA;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	transition: all 0.3s ease-in-out;
+}
+
+#intro{
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 26% 0;
+	text-align: left;
+	}
+
+
+.overlay{
+	background-color:rgba(163,205,216,0.72);
+	padding: 10% 0;
+	}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+#about{
+	background-color: #fff;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-weight: 400;
+	color:#00A1A4;
+	margin-bottom: 6%;
+}
+
+.cursiva{
+	font-family: 'Corinthia', cursive;
+	color:#00A1A4 !important;
+	font-size: 35px!important;
+	letter-spacing: 2px!important;
+	margin-top: 3%!important;
+	text-align: center !important;
+}
+
+#about h3{
+	text-align: left;
+	font-weight: 300;
+	color:#00A1A4;
+	margin-top: 8%;
+}
+
+#about p{
+	text-align:justify;
+	color:#ABABAB;
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	font-weight: 300;
+} 
+
+
+#services{
+	background-color: rgba(163,205,216,0.46);
+	
+}
+
+.iconos{
+	
+	font-size: 55px;
+	color: #00A1A4;
+	text-align:center;
+	margin-bottom: 20px;
+	display: block;
+	margin-top: 30px;
+
+}
+
+
+#services h5{
+	
+	font-size: 18px;
+	color: #00A1A4;
+	text-align: center;
+	font-weight: 200;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	align-content: center;
+}
+
+#services{
+	
+	font-size: 15px;
+	color: #ABABAB;
+	text-align: center;
+	font-weight: 300;
+	line-height: 25px;
+	align-content: center;
+	
+}
+
+.capa-absoluta h1{
+	position: absolute;
+	top:250px;
+	left: 100px;
+	font-size:50px; 
+	color:#00A1A4;
+	font-weight: 300;
+}
+
+.capa-absoluta p{
+	position: absolute;
+	top:310px;
+	left: 100px;
+	font-size:20px; 
+	color:#00A1A4;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+
+.card-product{
+	background-color: #fff;
+	padding: 20px;
+	overflow: hidden;
+	width: 380px;
+	height: 350px;
+	border: none;
+	margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 50px!important; /* Added */
+	
+	
+}
+
+.card-product:hover{
+	transform: scale(1.050);
+	transition: all 0.3s ease-in-out;
+	border-bottom: solid thick;
+	border-top: solid thick;
+	color: #00A1A4;
+}
+
+#services p{
+	color: #ABABAB!important;
+	margin-top: 10px;
+}
+
+.contact{
+	list-style: none;
+}
+
+.icon-contact{
+	font-size: 24px;
+	color: #A3CDD8;
+	margin-right: 15px;
+}
+
+
+#contact input{
+	font-size: 13px;
+	border: solid thin;
+	padding: 8px 10px;
+	color:#00A1A4; 
+	} 
+	
+#contact textarea{
+	font-size: 13px;
+	border: solid thin;
+	color:#00A1A4;
+	padding: 8px -5px ;
+}  
+.btn-vc{
+	background-color:#00A1A4;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+} 
+
+#contact h3{
+	text-align: left;
+	font-weight: 300;
+	color:#00A1A4;
+	margin-bottom: 25px;
+}
+
+.texto{
+	font-size: 14px!important;
+	color: #ABABAB;
+	margin: none!important;
+}
+
+.margen{
+	color: #ABABAB;
+	font-size: 15px;
+	margin-bottom: 50px;
+	line-height: 28px;
+}
+
+footer{
+    background-color:#A3CDD8;
+	padding: 30px 30px 8px 30px;
+	text-align: center;
+}
+
+.icono{
+    font-size: 38px;
+	text-align: center;
+}
+
+.icono:hover{
+    transform: scale(1.25);
+	transition: all 0.2s ease-in-out;
+}
+
+.icon-social:hover{
+ 
+	color: #00A1A4;
+}
+
+.icon-social{
+    text-decoration: none;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.nombre{
+	
+	margin-top: 30px;
+	border-top: solid thin;
+	color: #fff;
+	font-weight: 300;
+}
